@@ -1,0 +1,371 @@
+#soutiens{
+    width: 100%;
+    height: 150vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#titreSoutien{
+    height: auto;
+    width: auto;
+}
+
+#titreSoutien > h2{
+    margin-top: -45%;
+    font-size: 40px;
+    line-height: 48px;
+    color: #424345;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+#personSoutenant{
+    margin-top: -5%;
+    width: 85%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#personSoutenant > figure {
+    width: 23%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#personSoutenant > figure > img {
+    border-radius: 16px;
+    margin-bottom: 5%;
+}
+
+#personSoutenant > figure > figcaption {
+   
+    color: #424345;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#personSoutenant > figure > figcaption > span {
+    font-weight: 700;
+}
+
+
+#twitComment{
+    margin-bottom: -14%;
+    width: 85%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+#twitComment > article {
+    width: 23%;
+    height: auto;
+    
+}
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section#formulaireDeContact{
+    width: 100%;
+    height: 150vh;
+    background-color: #1d1c26;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+section#formulaireDeContact > form {
+    margin-top: 5%;
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+#titreFormulaire{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 1%;
+}
+
+#titreFormulaire > h2 {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#lienPreInsciption{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 15%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#lienPreInsciption > a {
+    color: #d92950;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#allForm{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#allForm > #allFormFirstPart{
+    width: 100%;
+    height: 50%;
+    display: flex ;
+    justify-content: space-between;
+}
+
+#allForm > #allFormFirstPart > div {
+    width: 48.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#allForm > #allFormFirstPart > div > div {
+ 
+    width: 100%;
+    height: 13%;
+}
+
+
+#allForm > #allFormFirstPart > div > div > input,
+#allForm > #allFormFirstPart > div > div > select {
+    
+    -webkit-appearance: none;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba#495057;
+    padding-left: 2%;
+    padding-top: .8%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#allForm > #allFormFirstPart > div > div > select > option{
+    
+    appearance: none;
+    
+}
+
+#allForm > div > div > h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#noneDisplay{
+    display: none;
+}
+
+
+#typeDemande{
+    width: 100%;
+    height: 30%;
+    display: flex ;
+    flex-direction: column;
+    margin-top: -2%;
+}
+
+
+
+
+#typeDemande > h5 {
+    margin-bottom: 0.65%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#typeDemande > #optionActivity{
+    width: 100%;
+    height: 40% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#typeDemande > #idDeDemande  {
+    margin-top: 2%;
+    width: 100%;
+    height: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+#typeDemande >div > textarea,
+#typeDemande >div > select {
+    -webkit-appearance: none;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba#495057;
+    padding-left: .5%;
+    padding-top: .9%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#typeDemande >div >h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#noneDisplay{
+    display: none;
+}
+
+
+#idDeDemande{
+    height: 170%;
+}
+
+select#demande{
+    height: 90% !important;
+}
+
+
+#detailsForm{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#detailsForm > p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+#detailsForm > p > a {
+    color: #ffffff;
+    width: 6.8%;
+    position: relative;
+}
+
+#detailsForm > p > a > span {
+    width: 100%;
+    color: #d92950;
+    position: relative;
+}
+
+#detailsForm > p > a::after {
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    content: "";
+    width: 100%;
+    border-bottom: 2.5px solid #d92950;
+    display: none;
+}
+
+
+#detailsForm > p > a:hover::after {
+    display: block;
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    content: "";
+    width: 100%;
+    border-bottom: 2.5px solid #d92950;
+}
+
+#buttonForm{
+    margin-bottom: -8%;
+    width: 10%;
+    height: 8%;
+    border-style: none;
+
+}
+
+#buttonForm > button{
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    background-color: #d92950;
+    border-style: none;
+    border-radius: 12px;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttonForm > button:hover{
+    background-color: #1d1c26;
+    border: 2px solid #d92950;
+}
