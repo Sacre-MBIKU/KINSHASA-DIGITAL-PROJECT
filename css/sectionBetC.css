@@ -1,0 +1,268 @@
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+section#devA{
+    width: 100%;
+    height: 110vh;
+    background-color: #f2eff3;
+    display: flex ;
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+#devAImages, #devAB{
+    width: 50%;
+    height: 70%;
+}
+
+#devAImages{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    width: 83%;
+    height: 80%;
+}
+
+#bigImage1{
+    position: absolute;
+    left: -9%;
+    top: 15%;
+    width: 50%;
+    height: 65%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#smallImage1{
+    position: absolute;
+    left: 32.3%;
+    top: 69%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 42%;
+    border-radius: 16px;
+}
+
+article#devAB{
+    
+    height: 80%;
+    margin-top: 3.5%;
+    margin-left: -34%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #424345;
+    position: relative;
+}
+
+article#devAB > h3{
+    position: absolute;
+    left: -10.5%;
+}
+
+#technoUsedIn{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    margin-top: 32%;
+}
+
+#technoLeft{
+    width: 175%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#technoRight{
+    width: 175%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#technoLeft > div, #technoRight > div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+#technoLeft > div > img, #technoRight > div > img{
+    width: 30%;
+    height: 35%;
+    position: relative;
+    border-bottom: 2px solid #fc0658;
+    padding-bottom: 10%;
+}
+
+
+
+#technoLeft > div > h4, #technoRight > div > h4{
+    width: 180%;
+    height: 25%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section#slideA{
+    width: 100%;
+    height: 80vh;
+    background-color: #e21e59;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#parteners{
+    width: 60%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+#partenersSliding{
+    width: 88%;
+    margin-top: 5%;
+    height: 20%;
+   overflow: hidden;
+}
+
+#partenersSliding  > figure {
+
+    position: relative;
+    width: 300%;
+    height: 100%;
+    display: inline-block;
+    animation: slideNumero1 50s infinite linear;
+}
+
+
+#partenersSliding  > #containSlides  >img{
+    float: left;
+    margin-right: 4.5%;
+    width: 2.5%;
+    height:65%;
+    
+}
+
+@keyframes slideNumero1{
+    0% {
+        left: 0;
+    }
+    3.8%{
+        left: 0;
+    }
+
+    7.6%{
+        left: -21%;
+    }
+
+    11.4%{
+        left: -21%;
+    }
+
+    15.2%{
+        left: -42%;
+    }
+
+    19%{
+        left: -42%;
+    }
+
+    22.8%{
+        left: -62%;
+    }
+
+    26.6%{
+        left: -62%;
+    }
+
+    30.4%{
+        left: -84%;
+    }
+
+    34.2%{
+        left: -84%;
+    }
+
+    38%{
+        left: -105%;
+    }
+
+    41.8%{
+        left: -105%;
+    }
+
+45.6%{
+        left: -125%;
+    }
+
+    49.4%{
+        left: -125%;
+    }
+
+    53.2%{
+        left: -145%;
+    }
+
+    57%{
+        left: -145%;
+    }
+
+    60.8%{
+        left: -165%;
+    }
+
+    64.6%{
+        left: -165%;
+    }
+
+    68.4%{
+        left: -188%;
+    }
+
+       98%{
+     left:   0%
+    }
+
+    100%{
+        left: -0%;
+    }
+
+
+    
+}

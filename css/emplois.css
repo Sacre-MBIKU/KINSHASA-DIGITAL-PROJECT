@@ -1,0 +1,214 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../polices/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face{
+    font-family: 'MontserratLight';
+    src: url("../polices/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'MontserratBlack';
+    src: url("../polices/Montserrat/Montserrat-Black.ttf");
+}
+
+main{
+    width: 100%;
+    height: 200vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+main > h1 {
+    position: absolute;
+    top: 10%;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #111111;
+    font-family: 'Montserrat';
+
+}
+
+main > div {
+    position: absolute;
+    top: 22%;
+    width: 85%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main > div > section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 42.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f0f3;
+    border-radius: 16px;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+.titreDeSectionEmploi{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #111111;
+    font-family: 'Montserrat';
+    justify-content: flex-start;
+}
+
+li{
+    list-style: none;
+}
+
+main > div > section > p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #424345;
+    font-family: 'MontserratLight';
+}
+
+
+.articlesEmploi{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.articlesEmploi > h3 {
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #111111;
+    font-family: 'Montserrat';
+    margin-bottom: 2%;
+}
+
+.articlesEmploi > ul {
+    padding-left: 5%;
+}
+
+
+.articlesEmploi > ul > li{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #424345;
+    font-family: 'MontserratLight';
+    display: flex;
+}
+
+.articlesEmploi > ul > li > span {
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #424345;
+    font-family: 'Montserrat';
+    margin-right: 2%;
+    margin-top: -2%;
+}
+
+
+main > div > section > p > a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #d92950;
+    font-family: 'Montserrat';
+    position: relative;
+    width: auto;
+}
+
+main > div > section > p > a::after{
+
+    position: absolute;
+    bottom: -2%;
+    content: "";
+    left: 0;
+    width: 100%;
+}
+
+
+main > div > section > p > a:hover::after{
+
+    position: absolute;
+    bottom: -2%;
+    border-bottom: #d92950 2px solid;
+    content: "";
+    left: 0;
+    width: 100%;
+}
+
+
+.btnPO{
+    width: 100%;
+    height: auto;
+    padding: 4% 0 4% 0;
+    margin-top: 0%;
+    margin-bottom: 5%;
+
+}
+
+.btnPO1{
+    width: 100%;
+    height: auto;
+    padding: 4% 0 4% 0;
+    margin-top: 0%;
+    margin-bottom: 7%;
+
+}
+
+.btnPO > a {
+    width: 100%;
+    height: 100%;
+    background-color: #d92950;
+    border-radius: 12px;
+    padding: 1% 0 1% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat';
+
+}
+
+.btnPO1 > a {
+    width: 100%;
+    height: 100%;
+    background-color: #d92950;
+    border-radius: 12px;
+    padding: 2% 0 2% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: 'Montserrat';
+
+}
