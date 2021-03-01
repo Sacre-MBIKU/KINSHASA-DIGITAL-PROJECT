@@ -212,6 +212,8 @@ h1#devQualifA{
     color: #ffffff;
     text-align: center;
     font-size: 17px;
+    display: flex;
+    flex-direction: column;
 }
 
 aside#technoKDA{
