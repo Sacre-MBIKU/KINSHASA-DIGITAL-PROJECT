@@ -1,7 +1,9 @@
+
+
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
 
 }
 
@@ -28,7 +30,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-left: 1.6%;
-    padding-right: 50%;
 }
 
 .image{
@@ -66,10 +67,10 @@ a{
 ul#orderNavigation > li > a{
     font-weight: 600;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 1rem;
     position: relative;
     transition: width 5s ease-out;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto";
 } 
 
 a.activeTag::after{
@@ -99,7 +100,7 @@ ul#orderNavigation > li >a:hover::after{
 
 header{
     width: 100%;
-    height: 135vh;
+    height: 130vh;
     background-image: url("../file/hero-background.jpg");
     background-size: cover;
     background-position: bottom;
@@ -150,10 +151,10 @@ h1#devQualifA{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 80px;
-    font-weight: bold;
+    font-size: 5.5vw;
+    font-weight: 900;
     color: #ffffff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'MontserratBlack';
 }
 
 #span3{
@@ -177,9 +178,7 @@ h1#devQualifA{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
-    font-weight: 800;
+    
     
 }
 
@@ -190,6 +189,9 @@ h1#devQualifA{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto';
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 #PlanEtDemande > li:hover{
@@ -206,14 +208,16 @@ h1#devQualifA{
 
 
 #phraseJointe{
-    width: 130%;
+    width: 300%;
     height: 25%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'MontserratLight';
     color: #ffffff;
     text-align: center;
-    font-size: 17px;
+    font-size: 1rem;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
 }
 
 aside#technoKDA{

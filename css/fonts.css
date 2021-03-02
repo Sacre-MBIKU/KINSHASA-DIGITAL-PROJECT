@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url("../polices/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face{
+    font-family: 'MontserratLight';
+    src: url("../polices/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'MontserratBlack';
+    src: url("../polices/Montserrat/Montserrat-Black.ttf");
+}
+
+@font-face{
+    font-family: 'UbuntuMonoRegular';
+    src: url('../polices/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'UbuntuMono';
+    src: url('../polices/Ubuntu_Mono/UbuntuMono-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url("../polices/Roboto/Roboto-Bold.ttf");
+}
+
+
+@font-face{
+    font-family: 'RobotoRegular';
+    src: url("../polices/Roboto/Roboto-Regular.ttf");
+}

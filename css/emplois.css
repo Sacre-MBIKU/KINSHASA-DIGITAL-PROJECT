@@ -1,17 +1,4 @@
-@font-face{
-    font-family: 'Montserrat';
-    src: url("../polices/Montserrat/Montserrat-Bold.ttf");
-}
 
-@font-face{
-    font-family: 'MontserratLight';
-    src: url("../polices/Montserrat/Montserrat-Regular.ttf");
-}
-
-@font-face{
-    font-family: 'MontserratBlack';
-    src: url("../polices/Montserrat/Montserrat-Black.ttf");
-}
 
 main{
     width: 100%;

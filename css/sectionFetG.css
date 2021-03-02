@@ -12,10 +12,9 @@
 
 #notreExpertise{
     
-    font-size: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.25rem;
+    font-family: 'Montserrat';
     font-weight: 700;
-    line-height: 48px;
     margin-top: 2%;
     color: #424345;
     
@@ -59,10 +58,10 @@
 #hardSkills > h3, #softSkills > h3{
     width: 97%;
     height: 10%;
-    font-size: 28px;
     line-height: 34px;
     font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Montserrat';
+    font-size: 1.75rem;
     color: #ffffff;
     padding-left: 3%;
     padding-top: 2%;
@@ -127,7 +126,8 @@
     font-size: 21px;
     line-height: 31px;
     color: #424345;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'UbuntuMonoRegular';
+    font-size: 1.3rem;
 }
 
 #softSkills > div > ol{
@@ -144,10 +144,10 @@
     display: flex;
     flex-direction: column;
     font-weight: 400;
-    font-size: 21px;
     line-height: 31px;
     color: #424345;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'UbuntuMonoRegular';
+    font-size: 1.2rem;
 }
 
 #softSkills > div > ol > li > span{
@@ -170,8 +170,8 @@
 
 
 #pret > h2{
-    font-size: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    font-family:'Montserrat';
     font-weight: 700;
     line-height: 48px;
     margin-top: 2%;
@@ -204,15 +204,14 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 #pret > ul > li > figure > img{
-    width: 20%;
-    height: 25%;
+    
     position: relative;
     border: 1px solid #ffffff;
     border-radius: 12px;
-    padding: 10%;
     
 }
 
@@ -220,8 +219,8 @@
 
 #pret > ul > li > figure > figcaption{
     width: 200%;
-    font-size: 21px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    font-family:'UbuntuMono';
     font-weight: 700;
     line-height: 30px;
     color: #ffffff;
@@ -233,11 +232,33 @@
 
 #pret > ul > li > img{
     position: absolute;
-    width: 16%;
     top: 30%;
     right: 5%;
     transform: translate(0, -50%);
+    width: 35px;
+    height: 20px;
 }
+
+.pretImg{
+    width: 34px;
+    height: 40px;
+    padding: 8% 10%;
+}
+
+.pretImg2{
+    width: 34px;
+    height: 17.67px;
+
+    padding: 15% 10%;
+}
+
+
+.pretImg3{
+    width: 34px;
+    height: 33px;
+    padding: 11% 10%;
+}
+
 
 
 #pret > div {
@@ -257,10 +278,11 @@
     height: 100%;
     border-radius: 16px;
     background-color: #db4b50;
-    font-size: 20px;
     font-weight: 700;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:'Roboto';
+    font-size: 1.25rem;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 #pret  > div > a:hover{
