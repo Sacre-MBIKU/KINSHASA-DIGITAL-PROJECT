@@ -45,6 +45,11 @@
     border-top: 10px solid #ffe64d;
 }
 
+.titreRealiseProject{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
 .integrateProject{
     border-top: 10px solid #db4b50;
 }
