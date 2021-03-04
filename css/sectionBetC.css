@@ -169,12 +169,12 @@ section#slideA{
 }
 
 #partenersSliding  > figure {
-
+    
     position: relative;
     width: 300%;
     height: 100%;
     display: inline-block;
-    animation: slideNumero1 50s infinite linear;
+    animation: slideNumero1 50s infinite ;
 }
 
 
@@ -253,86 +253,116 @@ section#slideA{
     0% {
         left: 0;
     }
-    3.8%{
+    8.33%{
         left: 0;
     }
 
-    7.6%{
-        left: -21%;
+    8.33%{
+        left: 0%;
     }
 
-    11.4%{
-        left: -21%;
+    9%{
+        left: 0%;
     }
 
-    15.2%{
-        left: -42%;
+    10%{
+        left: -24%;
+    }
+
+    18.33%{
+        left: -24%;
+    }
+
+    18.33%{
+        left: -24%;
     }
 
     19%{
-        left: -42%;
+        left: -24%;
     }
 
-    22.8%{
-        left: -62%;
+    20%{
+        left: -47%;
     }
 
-    26.6%{
-        left: -62%;
+    28.33%{
+        left: -47%;
     }
 
-    30.4%{
-        left: -84%;
+    28.33%{
+        left: -47%;
     }
 
-    34.2%{
-        left: -84%;
+    29%{
+        left: -47%;
     }
 
-    38%{
-        left: -105%;
+    30%{
+        left: -70%;
     }
 
-    41.8%{
-        left: -105%;
+    38.33%{
+        left: -70%;
     }
 
-45.6%{
-        left: -125%;
+    38.33%{
+        left: -70%;
     }
 
-    49.4%{
-        left: -125%;
+    39%{
+        left: -70%;
     }
 
-    53.2%{
-        left: -145%;
+    40%{
+        left: -95%;
     }
 
-    57%{
-        left: -145%;
+    48.33%{
+        left: -95%;
     }
 
-    60.8%{
-        left: -165%;
+    48.33%{
+        left: -95%;
     }
 
-    64.6%{
-        left: -165%;
+       49%{
+     left:   -95%
     }
 
-    68.4%{
-        left: -188%;
+   
+
+    50% {
+        left: -120%;
+    }
+    58.33%{
+        left: -120%;
     }
 
-       98%{
-     left:   0%
+    58.33%{
+        left: -120%;
     }
 
-    100%{
-        left: -0%;
+    59%{
+        left: -120%;
     }
 
+    60%{
+        left: -144%;
+    }
+
+    68.33%{
+        left: -144%;
+    }
+
+    68.33%{
+        left: -144%;
+    }
+
+    69%{
+        left: -144%;
+    }
+
+   
 
     
 }
