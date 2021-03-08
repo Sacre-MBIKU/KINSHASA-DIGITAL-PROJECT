@@ -15,6 +15,9 @@
     justify-content: space-between;
     align-items: flex-end;
 }
+option{
+    background-color: gray;
+}
 address{
     font-style: normal;
     appearance: none;
@@ -69,12 +72,36 @@ address{
     width: 22%;
     height: 25%;
     margin-bottom: -5%;
+    position: relative;
 }
 
 #mediasSociaux > a, #mediasSociaux > a > img {
     width: 50%;
     height: 100%;
     position: relative;
+}
+
+#mediasSociaux > a::after, #mediasSociaux > a > img::after{
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    content: "";
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width .8s;
+   
+} 
+
+#mediasSociaux > a:hover::after, #mediasSociaux > a > img:hover::after{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    content: "";
+    width: 50%;
+    border-bottom: 2.5px solid #fc0658;
+    
+    
+   
 }
 
 #imgSvgFB{
@@ -88,7 +115,7 @@ address{
     justify-content: space-around;
     width: 48%;
     height: 30%;
-    margin-bottom:24%;
+    margin-bottom:27%;
 }
 
 #inscription > p {
@@ -152,18 +179,17 @@ address{
     bottom: -20%;
     left: 0;
     content: "";
-    width: 100%;
-    border-bottom: 2.5px solid #d92950;
-    display: none;
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width .8s;
 }
 
 
 #lienEtPhone > a:hover::after, #mediasSociaux > a > img:hover::after{
-    display: block;
     position: absolute;
-    bottom: -20%;
+    bottom: -15%;
     left: 0;
     content: "";
-    width: 30%;
-    border-bottom: 2.5px solid #d92950;
+    width: 48%;
+    border-bottom: 2.5px solid #fc0658;
 }

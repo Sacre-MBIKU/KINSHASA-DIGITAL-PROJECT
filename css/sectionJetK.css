@@ -143,16 +143,31 @@ section#formulaireDeContact > form {
     line-height: 24px;
     font-weight: 700;
     font-family: 'Montserrat';
-
-    border-bottom: #d9294f00 1px solid;
-    width: 0;
-    transition: width 2s ease-in;
+   position: relative;
+    transition: width 1s ease-in;
 
 }
 
-#lienPreInsciption > a:hover{
-    border-bottom: #d92950 1px solid;
+#lienPreInsciption > a ::after{
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    content: "";
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width 1s;
+}
+
+#lienPreInsciption > a:hover::after{
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    content: "";
     width: 100%;
+    border-bottom: 2.5px solid #fc0658;
+    
+    
+   
 }
 
 #allForm{
@@ -362,6 +377,17 @@ select#demande{
     font-family: 'MontserratLight';
 }
 
+#detailsForm > p >::after{
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    content: "";
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width .8s;
+   
+}
+
 #detailsForm > p > a > span {
     width: 100%;
     color: #d92950;
@@ -373,9 +399,10 @@ select#demande{
     bottom: -20%;
     left: 0;
     content: "";
-    width: 100%;
-    border-bottom: 2.5px solid #d92950;
-    display: none;
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width .8s;
+    
 }
 
 

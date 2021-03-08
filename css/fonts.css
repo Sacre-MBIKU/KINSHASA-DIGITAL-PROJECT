@@ -3,9 +3,15 @@
     src: url("../polices/Montserrat/Montserrat-Bold.ttf");
 }
 
+
 @font-face{
     font-family: 'MontserratLight';
     src: url("../polices/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'MontserratRegular';
+    src: url("../polices/Montserrat/Montserrat-SemiBold.ttf");
 }
 
 @font-face{

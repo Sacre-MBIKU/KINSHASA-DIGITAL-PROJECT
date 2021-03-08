@@ -56,7 +56,21 @@ ul#orderNavigation{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
+
+@keyframes technoKDA{
+    from{
+        transform: translateY(20vh);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 li{
     list-style: none;
 }
@@ -82,6 +96,18 @@ a.activeTag::after{
     content: "";
     width: 100%;
     border-bottom: 2.5px solid #fc0658;
+    transition: width 1s;
+   
+}
+
+a::after{
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    content: "";
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width .8s;
    
 }
 
@@ -94,6 +120,7 @@ ul#orderNavigation > li >a:hover::after{
     width: 100%;
     border-bottom: 2.5px solid #fc0658;
     
+    
    
 }
 
@@ -105,7 +132,7 @@ header{
     height: 120vh;
     background-image: url("../file/hero-background.jpg");
     background-size: cover;
-    background-position-y: center;
+    background-position-y: top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +143,7 @@ header{
 }
 
 section#headerCenter{
-    margin-top: 0%;
+    margin-top: 7%;
     width: 80%;
     height: 53%;
     display: flex;
@@ -146,21 +173,36 @@ section#headerCenter{
 
 h1#devQualifA{
     margin-top: -7%;
-    width: 100%;
+    margin-bottom: 4%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 5.5vw;
+    font-size: 5.4vw;
     font-weight: 900;
     color: #ffffff;
     font-family: 'MontserratBlack';
+    animation-name: transformH1 ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes transformH1{
+    from{
+        transform: translateY(10vh);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #span3{
-    color: yellow;
+    color: #ffe64d;
 }
 
 #PlanEtDemande{
@@ -174,14 +216,30 @@ h1#devQualifA{
 
 #PlanEtDemande > li {
     width: 47%;
-    height: 65%;
+    height: 70%;
     background-color: #ffffff;
     border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 6%;
+    animation-name: planDeMandeLi;
+    animation-timing-function: 1;
+    animation-duration: 2s;
     
     
+}
+
+@keyframes planDeMandeLi{
+    from{
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #PlanEtDemande > li > a {
@@ -197,7 +255,7 @@ h1#devQualifA{
 }
 
 #PlanEtDemande > li:hover{
-    background-color: #da2259;
+    background-color: transparent;
     border: 2px solid #ffffff;
    
 }
@@ -218,8 +276,23 @@ h1#devQualifA{
     font-size: 1rem;
     font-weight: 400;
     display: flex;
+    line-height: 1.5;
     flex-direction: column;
-    margin-top: 2%;
+    margin-top: 5%;
+    animation-name: phraseJointe;
+    animation-timing-function: 1;
+    animation-duration: 2s;
+}
+
+@keyframes phraseJointe{
+    from{
+        transform: translateY(20vh);
+        opacity: .5;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 aside#technoKDA{
@@ -227,6 +300,7 @@ aside#technoKDA{
     height: 8%;
     width: 90%;
     display: flex;
+
 }
 
 aside#technoKDA >  ul {
@@ -235,6 +309,9 @@ aside#technoKDA >  ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    animation-name: technoKDA;
+    animation-duration: 3s;
 }
 
 aside#technoKDA >  ul > li {

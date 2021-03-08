@@ -123,23 +123,27 @@ main > div > section > p > a{
 }
 
 main > div > section > p > a::after{
-
     position: absolute;
-    bottom: -2%;
-    content: "";
+    bottom: -20%;
     left: 0;
-    width: 100%;
+    content: "";
+    width: 0%;
+    border-bottom: 2.5px solid #fc0658;
+    transition: width 1s;
+   
 }
 
 
 main > div > section > p > a:hover::after{
-
     position: absolute;
-    bottom: -2%;
-    border-bottom: #d92950 2px solid;
-    content: "";
+    bottom: -15%;
     left: 0;
+    content: "";
     width: 100%;
+    border-bottom: 2.5px solid #fc0658;
+    
+    
+   
 }
 
 
@@ -198,4 +202,10 @@ main > div > section > p > a:hover::after{
     color: #ffffff;
     font-family: 'Montserrat';
 
+}
+
+.btnPO > a:hover, .btnPO1 > a:hover{
+    background-color: transparent;
+    color: #d92950;
+    border: #d92950 2px solid;
 }

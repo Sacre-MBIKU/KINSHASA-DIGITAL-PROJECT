@@ -30,7 +30,7 @@
 }
 
 #hardSkills{
-    width: 55%;
+    width: 56%;
 }
 
 #softSkills{
@@ -67,6 +67,44 @@
     padding-top: 2%;
    
 }
+
+#expertise:hover > #hardAndSkills >  #hardSkills{
+    animation-name: hardSkills;
+    animation-duration: 1.5s ;
+
+}
+
+@keyframes hardSkills{
+    from{
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+#expertise:hover > #hardAndSkills >  #softSkills{
+    animation-name: softSkills;
+    animation-duration: 2.5s ;
+
+}
+
+@keyframes softSkills{
+    from{
+        transform: translateY(15vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 
 #hardSkills >  div, #softSkills> div {
     background-color: #f1f0f3;
@@ -288,9 +326,9 @@
 #pret  > div > a:hover{
         
     
-    background-color: #ae3e53;
+    background-color: transparent;
     border: 2px solid #ffffff;
-    color: #d92950;
+    color: #ffffff;
     
    
 }
